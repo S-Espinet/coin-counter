@@ -33,6 +33,6 @@ describe('coinCounter', () => {
 
   test('should return number of pennies based on input', () => {
     let output = coinCounter(4.99);
-    expect(output.nickels).toEqual(4);
+    expect(output.pennies).toEqual(4);
   });
 });
